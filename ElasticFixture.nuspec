@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ElasticIndexFixture</id>
+    <version>1.0.1.1</version>
+    <title>ElasticIndexFixture</title>
+    <authors>Andrii Ailikov</authors>
+    <owners>Andrii Ailikov</owners>
+    <licenseUrl>https://github.com/octahedrone/Excello/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/octahedrone/Excello</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Set of classes for xUnit-based Elastic integration testing. Requires external Elastic server instance!</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; Andrii Ailikov.  All rights reserved.</copyright>
+    <tags>xUnit Elastic Nest</tags>
+	<dependencies>
+		<dependency id="NEST" version="1.7.2" />
+	</dependencies>
+  </metadata>
+  <files>
+	<file src="Release\ElasticIndexFixture.dll" target="lib\net45\" />
+  </files>
+
+</package>
