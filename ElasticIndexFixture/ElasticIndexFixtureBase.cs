@@ -57,12 +57,12 @@ namespace ElasticIndexFixture
                 throw new Exception("Unable to create index");
         }
 
-        public IElasticClient Create(string indexName)
+        public IElasticClient Create()
         {
             return new ElasticClient(ConnectionSettings);
         }
 
-        public void Dispose()
+        public void DeleteIndex()
         {
             var client = new ElasticClient(ConnectionSettings);
             client.DeleteIndex(i => i.Index(IndexName));
